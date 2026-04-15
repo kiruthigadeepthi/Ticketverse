@@ -18,7 +18,7 @@ class FlightPayment:
         booknow.click()
         login=LoginPage(self.driver)
         login.login("kiruthigasns16@gmail.com", "Kiruajith@1234")
-        seat=self.driver.find_element(By.XPATH,"/html/body/div[2]/div[1]/div/div[4]/div[2]/img")
+        seat=self.driver.find_element(By.XPATH,"/html/body/div[2]/div[1]/div/div[4]/div[7]/img")
         seat.click()
         time.sleep(1)
         addpassengers=self.driver.find_element(By.XPATH,"/html/body/div[2]/div[2]/div[1]/form/button")
